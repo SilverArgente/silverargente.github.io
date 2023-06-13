@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+/* Shaded Section Styles */
+.shaded-section {
+    padding: 100px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Slideshow Section Styles */
+#slideshow {
+    height: 500px;
+    background-color: #DCCCA3;
+    background-size: cover;
+    background-position: center;
+}
+
+#about-me {
+    background-color: #4A5859;
+    color: #FFFFF7;
+}
+
+#skills {
+    background-color: #A0D2DB;
+}
+
+#education {
+    background-color: #FDCA40; 
+}
+
+#projects {
+    background-color: #31393C;
+    color: #FFFFF7;
+}
+
+#contact {
+    background-color: #8CC084;
+}
+
+#skills_container {
+    display: grid;
+}
+
+#skills_icon {
+    border: 3px solid #333;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+a {
+    color: #F4B860;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .shaded-section {
+        padding: 50px;
+    }
+
+    #slideshow {
+        height: 300px;
+    }
+}
