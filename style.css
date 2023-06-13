@@ -10,7 +10,51 @@ body {
     margin: 0;
     padding: 0;
 }
-  
+
+/* Navbar styling */
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #2B2D42;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#logo {
+    margin-left: 200px;
+    padding: 0;
+    text-align: center;
+}
+
+#buttons {
+    padding: 0;
+    margin-right: 200px;
+    list-style-type: none;
+    text-align: right;
+
+}
+
+#buttons li {
+    display: inline-block;
+    height: fit-content;
+    padding: 10px;
+}
+
+#navbar a {
+    color: #FFFFF7;
+}
+
+#navbar a:hover {
+    color: #D9D9D9;
+}
+
+#navbar a:active {
+    color: #BFBFBF;
+}
+
 /* Shaded Section Styles */
 .shaded-section {
     padding: 100px;
@@ -21,7 +65,7 @@ body {
 /* Slideshow Section Styles */
 #slideshow {
     height: 500px;
-    background-color: #DCCCA3;
+    background-color: #2B2D42;
     background-size: cover;
     background-position: center;
 }
@@ -85,12 +129,22 @@ p {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .shaded-section {
         padding: 50px;
     }
 
     #slideshow {
         height: 300px;
+    }
+
+    #logo {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #buttons {
+        display: none;
     }
 }
