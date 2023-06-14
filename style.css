@@ -70,6 +70,18 @@ body {
     background-position: center;
 }
 
+#slideshow h1 {
+    color: #FFFFF7;
+    text-align: left;
+    margin-left: 150px;
+}
+
+#slideshow h2 {
+    color: #FFFFF7;
+    text-align: left;
+    margin-left: 150px;
+}
+
 #about-me {
     background-color: #4A5859;
     color: #FFFFF7;
@@ -77,6 +89,19 @@ body {
 
 #skills {
     background-color: #A0D2DB;
+}
+
+#skills h1 {
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 20px;
 }
 
 #education {
@@ -146,5 +171,31 @@ p {
 
     #buttons {
         display: none;
+    }
+
+    #slideshow h1 {
+        color: #FFFFF7;
+        text-align: center;
+        margin: 0;
+    }
+
+    #slideshow h2 {
+        color: #FFFFF7;
+        text-align: center;
+        margin: 0;
+    }
+
+    #skills {
+        display: block;
+    }
+
+    #skills h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    #skills ul {
+        text-align: center;
+        margin: 0;
     }
 }
