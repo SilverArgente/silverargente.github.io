@@ -57,7 +57,7 @@ body {
 
 /* Shaded Section Styles */
 .shaded-section {
-    padding: 100px;
+    padding: 80px;
     text-align: center;
     background-color: #f0f0f0;
 }
@@ -89,6 +89,15 @@ body {
 
 #skills {
     background-color: #A0D2DB;
+    padding-top: 30px;
+}
+
+.skills-list-container {
+    display: flex;
+}
+
+#skills div {
+    flex: 1;
 }
 
 #skills h1 {
@@ -113,8 +122,33 @@ body {
     color: #FFFFF7;
 }
 
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+
 #contact {
     background-color: #8CC084;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#contact p {
+    background-color: #799496;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 #skills_container {
